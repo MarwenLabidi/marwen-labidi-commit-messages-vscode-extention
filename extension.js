@@ -56,10 +56,10 @@ function activate(context) {
 
 
 	let marwen = vscode.commands.registerCommand('marwen-labidi-commit-messages.marwen', function () {
-
+//FIXME figure out a solution for not executiog the commande in terminal
 		const terminal = vscode.window.activeTerminal
 		terminal.show()
-		terminal.sendText("hello marwen")
+		terminal.sendText("git status")
 	});
 
 	context.subscriptions.push(disposable);
