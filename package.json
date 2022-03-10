@@ -3,6 +3,13 @@
 	"displayName": "Marwen Labidi commit messages",
 	"description": "extension to  hope me write good messages commit",
 	"version": "0.0.1",
+	"publisher": "MarwenLabidi",
+	"keyword": ["marwen", "labidi", "marwenlabidi"],
+	"repositery": {
+		"type": "git",
+		"url": "https://github.com/marwenez/marwen-labidi-commit-messages-vscode-extention.git"
+
+	},
 	"engines": {
 		"vscode": "^1.65.0"
 	},
