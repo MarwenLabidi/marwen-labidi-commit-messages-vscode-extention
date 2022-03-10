@@ -10,13 +10,13 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:marwen-labidi-commit-messages.helloWorld"
+		"onCommand:marwen-labidi-commit-messages.message"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [{
-			"command": "marwen-labidi-commit-messages.helloWorld",
-			"title": "Hello World"
+			"command": "marwen-labidi-commit-messages.message",
+			"title": "message"
 
 		}]
 	},
